@@ -2,6 +2,8 @@
 
 `do pipenv install in the root of the project`
 
+then run `python manage.py migrate`
+
 the script for running the endpoints needs a user to exist, so do the following:
 
 create a user using `python manage.py createsuperuser`.
